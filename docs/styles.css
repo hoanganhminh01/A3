@@ -1,3 +1,4 @@
+
 /* Navigation Bar Styles */
 
 ul {
@@ -29,3 +30,4 @@ li a:hover:not(.active) {
     color: rgb(255, 253, 253);
     background-color: #000000;
 }
+
