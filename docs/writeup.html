@@ -24,20 +24,26 @@ clear: right;
 }
 h1 { font-size: 24pt; margin:  5px 0 10px 0; line-height: 28px; }
 h2 { font-size: 14pt; margin: 30px 0 15px 0; letter-spacing: 0.01em; border-bottom: 1px solid #ccc;  line-height: 20px;}
-h3 { font-size: 13pt; }
-h4 { font-size: 12pt; }
-h5 { font-size: 11pt; }
+h3 { font-size: 20pt; color: white; font-family: cursive;}
+h4 { font-size: 24pt; color: rgb(255, 0, 0); font-family: monospace;}
+h5 { font-size: 14pt; color: black; font-family: monospace;}
 p { margin: 0 0 10px 0; }
+.navigation {
+margin: 0px 100px;
+padding: 0px 50px;
+background-color: rgba(255,255,255,)
+}
 .content {
-margin: 0;
-padding: 15px 20px;
-background-color: #ffffff;
+margin: 0px 100px;
+padding: 0px 50px;
+background-color: rgba(255,255,255,)
 }
 .title, .title h1, .title a {
-color: #492a7c;
-font-size: 24pt;
-margin-bottom: 20px;
-margin-top: 5px;
+color: yellow;
+text-align: center;
+font-size: 40pt;
+font-family: fantasy;
+margin: 20px 20px;
 }
 .footer {
 border-top: 1px solid #ccc;
@@ -53,27 +59,38 @@ color: #21346B;
 color: #ce3333;
 }
 </style>
+<style>
+    body {
+      background-image: url('europe3.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 50%;
+    }
+    </style>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="content">
+<div class="navigation">
     <section>
         <ul id="navigation">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="map.html">Map</a></li>
-            <li><a class="active" href="writeup.html">Write Up</a></li>
+            <li><a style="color:yellow;" href="index.html">Home</a></li>
+            <li><a style="color:yellow;" href="map.html">Map</a></li>
+            <li><a style="color:yellow;" class="active" href="writeup.html">Write Up</a></li>
         </ul>
     </section>
+</div>
+<div class="content">
+
 <section class="title">
-<a href="/">Assignment 3: Hotel Prices of Eastern Europe</a>
+<a href="/">Hotels of Eastern Europe
+</a>
 </section>
 
 
 <section>
-<p>
-    <strong>Team Members</strong>: [TODO] team member #1, team member #2, team member #3, team member #4 (if applicable)
-</p>
-</section>
+<h3>
+    <strong>Team Members</strong>:<br> Minh<br> Andy <br> Andy<br> Rahul<br><br>
+</h3>
 
 <section>
 <em>This is the writeup.</em>
